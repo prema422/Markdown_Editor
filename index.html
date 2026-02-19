@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Professional Markdown Editor</title>
+<link rel="stylesheet" href="style.css">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+<script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+</head>
+<body>
+
+<div class="container">
+    <h1>Markdown Editor</h1>
+
+    <div class="editor-container">
+        <textarea id="markdownInput" placeholder="Write your markdown here..."></textarea>
+        <div id="preview" class="preview"></div>
+    </div>
+
+    <div class="actions">
+        <button onclick="clearEditor()">Clear</button>
+        <button onclick="downloadMarkdown()">Download .md</button>
+    </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
